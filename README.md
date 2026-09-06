@@ -5,7 +5,7 @@ in un confronto verificabile dei costi di spedizione. Ricalcola il piano
 originale, sceglie servizi ammissibili e propone consolidamenti prudenti senza
 modificare partenze, promesse o colli fisici.
 
-> Questa è una demo indipendente preparata da Klaus Zanaj per un colloquio con GBR Rossetto. Non è un prodotto ufficiale dell’azienda, non utilizza dati o tariffe reali e non è collegata ai suoi sistemi informatici.
+> Questa è una demo indipendente preparata da me (Klaus Zanaj) per un colloquio con GBR Rossetto. Non è un prodotto ufficiale dell’azienda, non utilizza dati o tariffe reali e non è collegata ai suoi sistemi informatici.
 
 > Prototipo indipendente per portfolio. Dati e tariffe sintetici. Nessuna integrazione aziendale verificata.
 
