@@ -8,7 +8,16 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "dist" / "review" / "kz-logistics-cost-lab-review.zip"
 PREFIX = "kz-logistics-cost-lab"
-ROOT_FILES = (".gitattributes", ".gitignore", "LICENSE", "README.md", "app.py", "pyproject.toml", "requirements-lock.txt")
+ROOT_FILES = (
+    ".gitattributes",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "app.py",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "requirements.txt",
+)
 TREES = (".streamlit", "data/sample", "docs", "scripts", "src", "tests")
 FORBIDDEN_PARTS = {".git", ".venv", "__pycache__", ".pytest_cache", ".audit", "outputs", "uploads", "dist", "node_modules"}
 FORBIDDEN_SUFFIXES = {".pyc", ".pyo", ".log"}

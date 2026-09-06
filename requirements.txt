@@ -1,0 +1,5 @@
+-e .
+pandas==3.0.5
+streamlit==1.63.0
+XlsxWriter==3.2.9
+tzdata==2026.3
