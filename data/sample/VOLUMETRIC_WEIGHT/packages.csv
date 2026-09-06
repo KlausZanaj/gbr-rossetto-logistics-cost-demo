@@ -1,0 +1,2 @@
+package_id,shipment_id,actual_weight_kg,length_cm,width_cm,height_cm
+P-0001,0001,2,60,40,40

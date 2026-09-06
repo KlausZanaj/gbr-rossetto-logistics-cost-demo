@@ -1,0 +1,5 @@
+shipment_id,order_id,customer_id,destination_id,zone,ready_at,dispatch_at,promised_delivery_date,current_service_id,handling_class,consolidation_allowed
+0001,ORD-0001,C-001,D-001,NORD,2026-09-01T08:00:00+02:00,2026-09-01T09:00:00+02:00,2026-09-02,LINEA,standard,true
+0002,ORD-0002,C-001,D-002,NORD,2026-09-01T08:00:00+02:00,2026-09-01T09:00:00+02:00,2026-09-02,LINEA,standard,true
+0003,ORD-0003,C-001,D-001,NORD,2026-09-01T08:00:00+02:00,2026-09-01T09:00:00+02:00,2026-09-02,LINEA,standard,false
+0004,ORD-0004,C-001,D-001,NORD,2026-09-01T08:00:00+02:00,2026-09-01T09:00:00+02:00,2026-09-02,LINEA,bulky,true

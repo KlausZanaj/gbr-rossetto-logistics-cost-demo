@@ -1,0 +1,7 @@
+tariff_id,service_id,zone,valid_from,valid_to,currency,fixed_fee_eur,per_kg_eur,volumetric_divisor_cm3_per_kg,billing_increment_kg,fuel_pct,max_package_weight_kg,max_package_longest_side_cm,max_shipment_actual_weight_kg,max_packages,transit_business_days,cutoff_local_time
+T-LINEA-NORD,LINEA,NORD,2026-01-01,2026-12-31,EUR,6.00,0.4000,5000,1,0,50,120,120,12,1,12:00
+T-ECONOMIA-NORD,ECONOMIA,NORD,2026-01-01,2026-12-31,EUR,3.00,0.2500,5000,1,0,50,120,120,6,2,12:00
+T-RAPIDO-NORD,RAPIDO,NORD,2026-01-01,2026-12-31,EUR,9.00,0.6000,5000,1,0,50,120,120,12,0,16:00
+T-LINEA-CENTRO,LINEA,CENTRO,2026-01-01,2026-12-31,EUR,6.00,0.4000,5000,1,5.0000,50,120,120,12,1,12:00
+T-ECONOMIA-CENTRO,ECONOMIA,CENTRO,2026-01-01,2026-12-31,EUR,3.00,0.2500,5000,1,5.0000,50,120,120,6,2,12:00
+T-RAPIDO-CENTRO,RAPIDO,CENTRO,2026-01-01,2026-12-31,EUR,9.00,0.6000,5000,1,5.0000,50,120,120,12,0,16:00

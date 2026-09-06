@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kz-logistics-cost-lab"
+version = "0.1.0"
+description = "Demo indipendente per il confronto prudente di costi logistici sintetici"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = ["pandas>=2.2", "streamlit>=1.40", "XlsxWriter>=3.2", "tzdata>=2024.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

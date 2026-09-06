@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+uploads/
+outputs/
+.audit/
+*.log
+node_modules/
+.env
+.streamlit/secrets.toml
